@@ -1,0 +1,67 @@
+{
+  "name": "SpeakFlow public code / private media build",
+  "on": {
+    "workflow_dispatch": {
+      "inputs": {
+        "free_usage_confirmed": {
+          "description": "Owner-approved standard public macOS runner; private resources and delivery only",
+          "required": true,
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "concurrency": {
+    "group": "speakflow-private-build",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "build": {
+      "if": "${{ inputs.free_usage_confirmed && vars.FREE_ACTIONS_CONFIRMED == 'true' && github.actor == github.repository_owner && github.ref == 'refs/heads/main' && github.event.repository.private == false }}",
+      "runs-on": "macos-26",
+      "timeout-minutes": 30,
+      "env": {
+        "SPEAKFLOW_COMMIT": "${{ github.sha }}",
+        "SPEAKFLOW_RUN_URL": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      },
+      "steps": [
+        {
+          "name": "Checkout public source",
+          "uses": "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "with": {
+            "persist-credentials": false
+          }
+        },
+        {
+          "name": "Verify public boundary",
+          "run": "python3 ci/check_public_boundary.py"
+        },
+        {
+          "name": "Fetch and verify private resources",
+          "run": "python3 ci/private_transport.py hydrate",
+          "env": {
+            "PRIVATE_RESOURCE_SSH_KEY": "${{ secrets.PRIVATE_RESOURCE_SSH_KEY }}",
+            "PRIVATE_RESOURCE_REPOSITORY": "${{ vars.PRIVATE_RESOURCE_REPOSITORY }}"
+          }
+        },
+        {
+          "name": "Compile and test; retain diagnostics privately",
+          "run": "python3 ci/run_private_build.py"
+        },
+        {
+          "name": "Save IPA and diagnostics privately",
+          "if": "always()",
+          "run": "python3 ci/private_transport.py deliver",
+          "env": {
+            "PRIVATE_RESOURCE_SSH_KEY": "${{ secrets.PRIVATE_RESOURCE_SSH_KEY }}",
+            "PRIVATE_RESOURCE_REPOSITORY": "${{ vars.PRIVATE_RESOURCE_REPOSITORY }}"
+          }
+        }
+      ]
+    }
+  }
+}

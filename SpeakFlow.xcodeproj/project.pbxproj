@@ -1,0 +1,153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		694DFD979BD4C557E1DD3A01 = { isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "SpeakFlow/Resources/Audio/complete-video.m4a"; sourceTree = SOURCE_ROOT; };
+		56ED6A8CABC6A4B4CA8A9ACE = { isa = PBXBuildFile; fileRef = 694DFD979BD4C557E1DD3A01; };
+		ED16196071467BBDFDDD372C = { isa = PBXBuildFile; fileRef = 694DFD979BD4C557E1DD3A01; };
+
+		EFEEE0AA5412FF5152FDA167 = { isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "SpeakFlow/Resources/Audio/incorrect-video.m4a"; sourceTree = SOURCE_ROOT; };
+		C00A0734607F84B1D2EE5CF3 = { isa = PBXBuildFile; fileRef = EFEEE0AA5412FF5152FDA167; };
+		3AD8B7F57C82ED35917E0930 = { isa = PBXBuildFile; fileRef = EFEEE0AA5412FF5152FDA167; };
+
+		69D63D1C11D563F36E57ED78 = { isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "SpeakFlow/Resources/Audio/correct-video.m4a"; sourceTree = SOURCE_ROOT; };
+		D1766DCA0C8A62055EEF13D0 = { isa = PBXBuildFile; fileRef = 69D63D1C11D563F36E57ED78; };
+		50176DDE1A026DB16E660BC9 = { isa = PBXBuildFile; fileRef = 69D63D1C11D563F36E57ED78; };
+
+		06C8C7D547303AEEE9BF25A4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/TrainingCardView.swift"; sourceTree = SOURCE_ROOT; };
+		E532172851C5769E97C73296 = { isa = PBXBuildFile; fileRef = 06C8C7D547303AEEE9BF25A4; };
+
+		FD91F793C4D6275FC3ECE9E5 = { isa = PBXFileReference; lastKnownFileType = folder; path = "SpeakFlow/Resources/HeartAudio"; sourceTree = SOURCE_ROOT; };
+		DAA100000000000000000001 = { isa = PBXFileReference; lastKnownFileType = folder; path = "SpeakFlow/Resources/ChineseAudio"; sourceTree = SOURCE_ROOT; };
+		832F5836C4DAEC7BB35E9A66 = { isa = PBXBuildFile; fileRef = FD91F793C4D6275FC3ECE9E5; };
+		DAA100000000000000000002 = { isa = PBXBuildFile; fileRef = DAA100000000000000000001; };
+		C952CF88B8780F0951A24CDE = { isa = PBXBuildFile; fileRef = FD91F793C4D6275FC3ECE9E5; };
+		DAA100000000000000000003 = { isa = PBXBuildFile; fileRef = DAA100000000000000000001; };
+		5612044FF2EE77F3B066A049 = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "SpeakFlow/Resources/Audio/ready.wav"; sourceTree = SOURCE_ROOT; };
+		2CBAAEF48D713EB47CB27C7C = { isa = PBXBuildFile; fileRef = 5612044FF2EE77F3B066A049; };
+		CAC7B506AE5BA70569245A4D = { isa = PBXBuildFile; fileRef = 5612044FF2EE77F3B066A049; };
+		0724FC3E07C2807CDE735A12 = { isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SpeakFlow/Resources/Audio/correct-reference.mp3"; sourceTree = SOURCE_ROOT; };
+		50AAE0B0A495EF31F0A2C385 = { isa = PBXBuildFile; fileRef = 0724FC3E07C2807CDE735A12; };
+		727CD2799A5118A62209C54C = { isa = PBXBuildFile; fileRef = 0724FC3E07C2807CDE735A12; };
+		3B9745AED0BE6B25D0D3DCF1 = { isa = PBXFileReference; lastKnownFileType = audio.wav; path = "SpeakFlow/Resources/Audio/incorrect-mixkit-elevator-tone-2863.wav"; sourceTree = SOURCE_ROOT; };
+		9E9EE918E53637CEB1F4E8F0 = { isa = PBXBuildFile; fileRef = 3B9745AED0BE6B25D0D3DCF1; };
+		35A6C4996640679CFF596E0C = { isa = PBXBuildFile; fileRef = 3B9745AED0BE6B25D0D3DCF1; };
+		A0BFDEA32B187FCBFB006961 = { isa = PBXFileReference; lastKnownFileType = text; path = "SpeakFlow/Resources/Audio/SOURCES.md"; sourceTree = SOURCE_ROOT; };
+		A8B697DF6C70AF5FB6EF3905 = { isa = PBXBuildFile; fileRef = A0BFDEA32B187FCBFB006961; };
+		6FCC11396F96CD5964472396 = { isa = PBXBuildFile; fileRef = A0BFDEA32B187FCBFB006961; };
+		BA01F7B5A757F258BCCA9874 = { isa = PBXBuildFile; fileRef = 2D08FE6085107496C12CA11C; };
+		3D6EAF925D53E60C18E003E4 = { isa = PBXBuildFile; fileRef = 2D08FE6085107496C12CA11C; };
+		2D08FE6085107496C12CA11C = { isa = PBXFileReference; lastKnownFileType = text; path = "SpeakFlow/Resources/ContentLicenses.txt"; sourceTree = SOURCE_ROOT; };
+
+		EAEF0924C46BC474DB8F640C = { isa = PBXBuildFile; fileRef = AA950149A2219FE03C4D81D8; };
+		320289C876C20FB67C543A5A = { isa = PBXBuildFile; fileRef = AA950149A2219FE03C4D81D8; };
+		AA950149A2219FE03C4D81D8 = { isa = PBXFileReference; lastKnownFileType = text.json; path = "SpeakFlow/Resources/CuratedWords.json"; sourceTree = SOURCE_ROOT; };
+
+		08DE1568F43C9E65574575C3 = { isa = PBXBuildFile; fileRef = 03CC50667881F5B481ACE6BF; };
+		580B66EA74BDEDBF59BBB2B2 = { isa = PBXBuildFile; fileRef = 03CC50667881F5B481ACE6BF; };
+		03CC50667881F5B481ACE6BF = { isa = PBXFileReference; lastKnownFileType = text.json; path = "SpeakFlow/Resources/CuratedSentences.json"; sourceTree = SOURCE_ROOT; };
+
+		793C78D9C7B31C113BCD650C = { isa = PBXBuildFile; fileRef = 72383FA20B81CEF8C144B8C9; };
+		D496FCB079D48E7661217348 = { isa = PBXBuildFile; fileRef = 72383FA20B81CEF8C144B8C9; };
+		72383FA20B81CEF8C144B8C9 = { isa = PBXFileReference; lastKnownFileType = text.json; path = "SpeakFlow/Resources/ContentSources.json"; sourceTree = SOURCE_ROOT; };
+
+		8958A94F7F7B58127A97EF88 = { isa = PBXBuildFile; fileRef = 6AAE2B2FC22042B66E9C53A9; };
+		6AAE2B2FC22042B66E9C53A9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/LibraryAudioTests.swift"; sourceTree = SOURCE_ROOT; };
+
+		F2CBC63E19A2C5ADECFDF6CF = { isa = PBXBuildFile; fileRef = EE77FFB6214773D907210036; };
+		EE77FFB6214773D907210036 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/LearningStoreTests.swift"; sourceTree = SOURCE_ROOT; };
+
+		DF9054BC0BFF99A4453D22B6 = { isa = PBXBuildFile; fileRef = E27C9B59ED5D70381C4EBA04; };
+		E27C9B59ED5D70381C4EBA04 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/Home/TrainingSettingsView.swift"; sourceTree = SOURCE_ROOT; };
+
+		0E9914E099F31E405F3B6492 = { isa = PBXBuildFile; fileRef = B069F291204FD21B6D38FBE5; };
+		B069F291204FD21B6D38FBE5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/Home/LearningRecordsView.swift"; sourceTree = SOURCE_ROOT; };
+
+		ECC6983729B5A6E369B838E3 = { isa = PBXBuildFile; fileRef = 9C5889D909897F1CAA6F9CC8; };
+		9C5889D909897F1CAA6F9CC8 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/Home/ContentSourcesView.swift"; sourceTree = SOURCE_ROOT; };
+
+		89B1F4148DDEEF215A185EAC = { isa = PBXBuildFile; fileRef = AB08871071C3E820AACFE5DF; };
+		AB08871071C3E820AACFE5DF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/ViewModels/AudioPreviewModel.swift"; sourceTree = SOURCE_ROOT; };
+
+		6EE323AE15111A1A7CD69764 = { isa = PBXBuildFile; fileRef = 7A5B3C61B16281F1DE06E55A; };
+		7A5B3C61B16281F1DE06E55A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/TrainingSettings.swift"; sourceTree = SOURCE_ROOT; };
+
+		47DD3510E564C8DDDAD0DFB7 = { isa = PBXBuildFile; fileRef = 6D8C001BA4D78235ED7A3616; };
+		6D8C001BA4D78235ED7A3616 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/LearningStore.swift"; sourceTree = SOURCE_ROOT; };
+
+		E038D49F6C8D3291C5D8B969 = { isa = PBXBuildFile; fileRef = 9204743F12A2D42E90D2408A; };
+		9204743F12A2D42E90D2408A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/CuePlayer.swift"; sourceTree = SOURCE_ROOT; };
+
+		4D577586FEA1F54A6BB5C2F4 = { isa = PBXBuildFile; fileRef = 705D92F286DC804A51779B1E; };
+		705D92F286DC804A51779B1E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Data/PracticeLibrary.swift"; sourceTree = SOURCE_ROOT; };
+
+		07FFFE89579A82899960A7F4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/SentencePracticeTests.swift"; sourceTree = SOURCE_ROOT; };
+		F28B66C41ACE958BD1CE0DD7 = { isa = PBXBuildFile; fileRef = 07FFFE89579A82899960A7F4; };
+		56005FDC955BA1ACADC282A1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/ViewModels/SentencePracticeViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		C255B3D3CE7F93623957AE52 = { isa = PBXBuildFile; fileRef = 56005FDC955BA1ACADC282A1; };
+		68A58A62A72002913468ED60 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/WordPracticeTests.swift"; sourceTree = SOURCE_ROOT; };
+		CF4102A58AC4B3D9E312DC91 = { isa = PBXBuildFile; fileRef = 68A58A62A72002913468ED60; };
+		16E589AA0E2665B9A3ACCA08 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/ViewModels/WordPracticeViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		F291345CB2209E6F2B809F40 = { isa = PBXBuildFile; fileRef = 16E589AA0E2665B9A3ACCA08; };
+		5C96AD8AD901D8C0B9EE6F5A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/State/PracticeState.swift"; sourceTree = SOURCE_ROOT; };
+		EEDD112FF794FBAB10DC93C2 = { isa = PBXBuildFile; fileRef = 5C96AD8AD901D8C0B9EE6F5A; };
+		49218B8A1A261576FBA9DD9C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/VoiceFeedbackService.swift"; sourceTree = SOURCE_ROOT; };
+		E36ECE2048D253DD2FB101C1 = { isa = PBXBuildFile; fileRef = 49218B8A1A261576FBA9DD9C; };
+		271F5D0A86DFB076D3B859B1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/SpeechRecognitionService.swift"; sourceTree = SOURCE_ROOT; };
+		023756374F6B7869BDDC19D3 = { isa = PBXBuildFile; fileRef = 271F5D0A86DFB076D3B859B1; };
+		A316386694D3743360B5215C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Services/AnswerMatcher.swift"; sourceTree = SOURCE_ROOT; };
+		83E49D9ADA0E82391A50A155 = { isa = PBXBuildFile; fileRef = A316386694D3743360B5215C; };
+		22EC054C981F39DA71246772 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/App/SpeakFlowApp.swift"; sourceTree = SOURCE_ROOT; };
+		6F370B899631CED45945B210 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Models/WordItem.swift"; sourceTree = SOURCE_ROOT; };
+		93FB37C05BAC0DF1CA216E6D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Models/SentenceItem.swift"; sourceTree = SOURCE_ROOT; };
+		327362E52C55B072D4D36F7E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Data/SampleData.swift"; sourceTree = SOURCE_ROOT; };
+		65D5A92B285A1E41DAE2ACAF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/Home/HomeView.swift"; sourceTree = SOURCE_ROOT; };
+		6212F2EE19C4109E1AB62AC7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/WordPractice/WordPracticeView.swift"; sourceTree = SOURCE_ROOT; };
+		E8A23D5DD27D0327A3611446 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpeakFlow/Views/SentencePractice/SentencePracticeView.swift"; sourceTree = SOURCE_ROOT; };
+		2B7DA21AC918744C6C996C8F = { isa = PBXFileReference; lastKnownFileType = text.json; path = "SpeakFlow/Resources/SampleWords.json"; sourceTree = SOURCE_ROOT; };
+		58466DA2A51D57B5AD4F4EAE = { isa = PBXFileReference; lastKnownFileType = text.json; path = "SpeakFlow/Resources/SampleSentences.json"; sourceTree = SOURCE_ROOT; };
+		844BB9C155AB41E5C7E8F80A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/SampleDataTests.swift"; sourceTree = SOURCE_ROOT; };
+		DA0FBAF7A3BC04F7224B59F8 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakFlow/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
+		8D2BB7A12E8C440FE41320CB = { isa = PBXBuildFile; fileRef = 22EC054C981F39DA71246772; };
+		948C357182E2D759445A7E8A = { isa = PBXBuildFile; fileRef = 6F370B899631CED45945B210; };
+		FF9C28699DF794F5C9FE74C8 = { isa = PBXBuildFile; fileRef = 93FB37C05BAC0DF1CA216E6D; };
+		6E89A78411BEBD22FCA82A42 = { isa = PBXBuildFile; fileRef = 327362E52C55B072D4D36F7E; };
+		8A0F56563327A3709AB725A5 = { isa = PBXBuildFile; fileRef = 65D5A92B285A1E41DAE2ACAF; };
+		32BCC4C86501828C0EE256DA = { isa = PBXBuildFile; fileRef = 6212F2EE19C4109E1AB62AC7; };
+		A3B46CC96801137F87B19379 = { isa = PBXBuildFile; fileRef = E8A23D5DD27D0327A3611446; };
+		F79B485DF3B8003ECDC04865 = { isa = PBXBuildFile; fileRef = 2B7DA21AC918744C6C996C8F; };
+		909165EF0B8978A932DD14B0 = { isa = PBXBuildFile; fileRef = 58466DA2A51D57B5AD4F4EAE; };
+		8B653A2FEFFCF65287F7A052 = { isa = PBXBuildFile; fileRef = 844BB9C155AB41E5C7E8F80A; };
+		331B0831895983F9621516E9 = { isa = PBXBuildFile; fileRef = 2B7DA21AC918744C6C996C8F; };
+		4CA43D5997836B9C099D9905 = { isa = PBXBuildFile; fileRef = 58466DA2A51D57B5AD4F4EAE; };
+		763D774377779C412BB71F6F = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00444E2C37DD529B70E931A2 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5652941471EEF5B25819CDC3 = { isa = PBXGroup; name = SpeakFlow; children = (694DFD979BD4C557E1DD3A01, EFEEE0AA5412FF5152FDA167, 69D63D1C11D563F36E57ED78, 06C8C7D547303AEEE9BF25A4, FD91F793C4D6275FC3ECE9E5, DAA100000000000000000001, 2D08FE6085107496C12CA11C, AA950149A2219FE03C4D81D8, 03CC50667881F5B481ACE6BF, 72383FA20B81CEF8C144B8C9, E27C9B59ED5D70381C4EBA04, B069F291204FD21B6D38FBE5, 9C5889D909897F1CAA6F9CC8, AB08871071C3E820AACFE5DF, 7A5B3C61B16281F1DE06E55A, 6D8C001BA4D78235ED7A3616, 9204743F12A2D42E90D2408A, 705D92F286DC804A51779B1E, 56005FDC955BA1ACADC282A1, 16E589AA0E2665B9A3ACCA08, 5C96AD8AD901D8C0B9EE6F5A, 49218B8A1A261576FBA9DD9C, 271F5D0A86DFB076D3B859B1, A316386694D3743360B5215C, 22EC054C981F39DA71246772, 6F370B899631CED45945B210, 93FB37C05BAC0DF1CA216E6D, 327362E52C55B072D4D36F7E, 65D5A92B285A1E41DAE2ACAF, 6212F2EE19C4109E1AB62AC7, E8A23D5DD27D0327A3611446, 2B7DA21AC918744C6C996C8F, 58466DA2A51D57B5AD4F4EAE, DA0FBAF7A3BC04F7224B59F8, ); sourceTree = "<group>"; };
+		023752C49C9D198427E934E7 = { isa = PBXGroup; name = Tests; children = (6AAE2B2FC22042B66E9C53A9, EE77FFB6214773D907210036, 07FFFE89579A82899960A7F4, 68A58A62A72002913468ED60, 844BB9C155AB41E5C7E8F80A, ); sourceTree = "<group>"; };
+		5BAB63C60BF318DAB40A4F04 = { isa = PBXGroup; name = Products; children = (763D774377779C412BB71F6F, 00444E2C37DD529B70E931A2, ); sourceTree = "<group>"; };
+		0035FE99EA2940F7FA633A58 = { isa = PBXGroup; children = (5652941471EEF5B25819CDC3, 023752C49C9D198427E934E7, 5BAB63C60BF318DAB40A4F04, ); sourceTree = "<group>"; };
+		D8AFF257B45D0C513672EC45 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (E532172851C5769E97C73296, DF9054BC0BFF99A4453D22B6, 0E9914E099F31E405F3B6492, ECC6983729B5A6E369B838E3, 89B1F4148DDEEF215A185EAC, 6EE323AE15111A1A7CD69764, 47DD3510E564C8DDDAD0DFB7, E038D49F6C8D3291C5D8B969, 4D577586FEA1F54A6BB5C2F4, C255B3D3CE7F93623957AE52, F291345CB2209E6F2B809F40, EEDD112FF794FBAB10DC93C2, E36ECE2048D253DD2FB101C1, 023756374F6B7869BDDC19D3, 83E49D9ADA0E82391A50A155, 8D2BB7A12E8C440FE41320CB, 948C357182E2D759445A7E8A, FF9C28699DF794F5C9FE74C8, 6E89A78411BEBD22FCA82A42, 8A0F56563327A3709AB725A5, 32BCC4C86501828C0EE256DA, A3B46CC96801137F87B19379, ); runOnlyForDeploymentPostprocessing = 0; };
+		DC549ACCB7C726C62ECFD4E2 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (56ED6A8CABC6A4B4CA8A9ACE, C00A0734607F84B1D2EE5CF3, D1766DCA0C8A62055EEF13D0, 832F5836C4DAEC7BB35E9A66, DAA100000000000000000002, 2CBAAEF48D713EB47CB27C7C, 50AAE0B0A495EF31F0A2C385, 9E9EE918E53637CEB1F4E8F0, A8B697DF6C70AF5FB6EF3905, 3D6EAF925D53E60C18E003E4, 320289C876C20FB67C543A5A, 580B66EA74BDEDBF59BBB2B2, D496FCB079D48E7661217348, F79B485DF3B8003ECDC04865, 909165EF0B8978A932DD14B0, ); runOnlyForDeploymentPostprocessing = 0; };
+		91024282FFD499F5807DB5BC = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B2298129A58493C45A5D7D9A = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (8958A94F7F7B58127A97EF88, F2CBC63E19A2C5ADECFDF6CF, F28B66C41ACE958BD1CE0DD7, CF4102A58AC4B3D9E312DC91, 8B653A2FEFFCF65287F7A052, ); runOnlyForDeploymentPostprocessing = 0; };
+		3F6BC17F79ADBDD97FB52430 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (ED16196071467BBDFDDD372C, 3AD8B7F57C82ED35917E0930, 50176DDE1A026DB16E660BC9, C952CF88B8780F0951A24CDE, DAA100000000000000000003, CAC7B506AE5BA70569245A4D, 727CD2799A5118A62209C54C, 35A6C4996640679CFF596E0C, 6FCC11396F96CD5964472396, BA01F7B5A757F258BCCA9874, EAEF0924C46BC474DB8F640C, 08DE1568F43C9E65574575C3, 793C78D9C7B31C113BCD650C, 331B0831895983F9621516E9, 4CA43D5997836B9C099D9905, ); runOnlyForDeploymentPostprocessing = 0; };
+		28557525D9B40FEE6754FB60 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		F168FCEC9242136A272F6D22 = { isa = PBXContainerItemProxy; containerPortal = 244210E48437B6556980A702; proxyType = 1; remoteGlobalIDString = AC44A5EE06496B21A17CA082; remoteInfo = SpeakFlow; };
+		B9E7EDFEA5781C84549BB689 = { isa = PBXTargetDependency; target = AC44A5EE06496B21A17CA082; targetProxy = F168FCEC9242136A272F6D22; };
+		AC44A5EE06496B21A17CA082 = { isa = PBXNativeTarget; buildConfigurationList = 671B466153DB183FE9E409BE; buildPhases = (D8AFF257B45D0C513672EC45, 91024282FFD499F5807DB5BC, DC549ACCB7C726C62ECFD4E2, ); buildRules = (); dependencies = (); name = SpeakFlow; productName = SpeakFlow; productReference = 763D774377779C412BB71F6F; productType = "com.apple.product-type.application"; };
+		3A0C9CEF9D8F3BC090274361 = { isa = PBXNativeTarget; buildConfigurationList = EC086E470C1C75430B442AB0; buildPhases = (B2298129A58493C45A5D7D9A, 28557525D9B40FEE6754FB60, 3F6BC17F79ADBDD97FB52430, ); buildRules = (); dependencies = (B9E7EDFEA5781C84549BB689, ); name = SpeakFlowTests; productName = SpeakFlowTests; productReference = 00444E2C37DD529B70E931A2; productType = "com.apple.product-type.bundle.unit-test"; };
+		73EBF6644258C120893E685D = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "16.0"; SWIFT_VERSION = "5.0"; ENABLE_TESTABILITY = "YES"; DEBUG_INFORMATION_FORMAT = "dwarf"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; ONLY_ACTIVE_ARCH = "YES"; }; name = Debug; };
+		0B0C687DF8B6B8DC790B519C = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "16.0"; SWIFT_VERSION = "5.0"; ENABLE_TESTABILITY = "NO"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = ""; ONLY_ACTIVE_ARCH = "NO"; }; name = Release; };
+		4AA05EC3301949773ED0AC0A = { isa = XCConfigurationList; buildConfigurations = (73EBF6644258C120893E685D, 0B0C687DF8B6B8DC790B519C, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00CCDD09424E369308D67FA = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.speakflow.personal"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = "NO"; MARKETING_VERSION = "0.5.0"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "SpeakFlow/Resources/Info.plist"; }; name = Debug; };
+		1B104479E55E37CF8A63CBDF = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.speakflow.personal"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = "NO"; MARKETING_VERSION = "0.5.0"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "NO"; INFOPLIST_FILE = "SpeakFlow/Resources/Info.plist"; }; name = Release; };
+		671B466153DB183FE9E409BE = { isa = XCConfigurationList; buildConfigurations = (B00CCDD09424E369308D67FA, 1B104479E55E37CF8A63CBDF, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		DD3F495F7D6A5AA1C1769021 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.speakflow.personal.tests"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = "NO"; MARKETING_VERSION = "0.5.0"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "YES"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakFlow"; BUNDLE_LOADER = "$(TEST_HOST)"; }; name = Debug; };
+		E670BC2FFE794172EBC92AE3 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.speakflow.personal.tests"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = "NO"; MARKETING_VERSION = "0.5.0"; CURRENT_PROJECT_VERSION = "1"; GENERATE_INFOPLIST_FILE = "YES"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeakFlow"; BUNDLE_LOADER = "$(TEST_HOST)"; }; name = Release; };
+		EC086E470C1C75430B442AB0 = { isa = XCConfigurationList; buildConfigurations = (DD3F495F7D6A5AA1C1769021, E670BC2FFE794172EBC92AE3, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		244210E48437B6556980A702 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1500; TargetAttributes = { 3A0C9CEF9D8F3BC090274361 = { TestTargetID = AC44A5EE06496B21A17CA082; }; }; }; buildConfigurationList = 4AA05EC3301949773ED0AC0A; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (zh_CN, en, Base, ); mainGroup = 0035FE99EA2940F7FA633A58; productRefGroup = 5BAB63C60BF318DAB40A4F04; projectDirPath = ""; projectRoot = ""; targets = (AC44A5EE06496B21A17CA082, 3A0C9CEF9D8F3BC090274361, ); };
+	};
+	rootObject = 244210E48437B6556980A702;
+}
